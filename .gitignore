@@ -1,0 +1,11 @@
+# Ignore local personal NetBeans settings (CRITICAL for groupmates)
+**/nbproject/private/
+
+# Ignore compiled files & build folders
+build/
+dist/
+*.war
+*.class
+
+# Ignore Mac OS junk
+.DS_Store
