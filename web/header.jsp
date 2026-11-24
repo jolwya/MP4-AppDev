@@ -15,7 +15,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Lost &amp; Found</title>
+    <title>Campus Lost &amp; Found</title>
     <link rel="stylesheet" href="css/global.css">
     <link rel="stylesheet" href="<%= contextPath %>/css/global.css">
 </head>
@@ -24,15 +24,12 @@
     <header class="app-header">
         <div class="header-inner">
             <div class="header-brand">
-                <h1 class="header-title">Lost &amp; Found</h1>
+                <h1 class="header-title">Campus Lost &amp; Found</h1>
             </div>
             <div class="header-right">
                 <div class="course-text">ICS2608</div>
-                <div class="team-list">
-                    <span class="team-label">Team:</span>
-                    <span class="member-chip">Amparo, Caitlin Julia</span>
-                    <span class="member-chip">Reyes, Aisha Jullienne</span>
-                    <span class="member-chip">Lorenzo, Jillianne</span>
+                <div class="member-chip">
+                    Amparo, Caitlin Julia &bull; Reyes, Aisha Jullienne &bull; Lorenzo, Jillianne
                 </div>
             </div>
         </div>
