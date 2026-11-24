@@ -15,7 +15,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Campus Lost &amp; Found</title>
+    <title>Lost &amp; Found</title>
     <link rel="stylesheet" href="css/global.css">
     <link rel="stylesheet" href="<%= contextPath %>/css/global.css">
 </head>
@@ -24,7 +24,7 @@
     <header class="app-header">
         <div class="header-inner">
             <div class="header-brand">
-                <h1 class="header-title">Campus Lost &amp; Found</h1>
+                <h1 class="header-title">Lost &amp; Found</h1>
             </div>
             <div class="header-right">
                 <div class="course-text">ICS2608</div>
