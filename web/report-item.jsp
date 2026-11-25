@@ -1,9 +1,3 @@
-<%-- 
-    Document   : report-item
-    Created on : 11 22, 26, 9:06:15 PM
-    Author     : caitlinjuliaamparo
---%>
-
 <%@ page contentType="text/html;charset=UTF-8" language="java" %>
 <%@ page import="models.User" %>
 <%
@@ -97,7 +91,7 @@
         </div>
 
         <div style="display: flex; justify-content: space-between; align-items: center; margin-top: 1.5rem; flex-wrap: wrap; gap: 0.75rem;">
-            <a href="index.jsp" class="btn btn-secondary">&larr; Return to Public Feed</a>
+            <a href="<%= contextPath %>/index.jsp" class="btn btn-secondary">&larr; Return to Public Feed</a>
             <button type="submit" class="btn btn-success">Submit Custody Record &rarr;</button>
         </div>
     </form>
