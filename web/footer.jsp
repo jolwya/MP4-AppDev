@@ -1,3 +1,9 @@
+<%-- 
+    Document   : footer
+    Created on : 11 22, 26, 9:03:43 PM
+    Author     : caitlinjuliaamparo
+--%>
+
 <%@ page contentType="text/html;charset=UTF-8" language="java" %>
 <%@ page import="java.text.SimpleDateFormat, java.util.Date" %>
 
