@@ -1,9 +1,3 @@
-<%-- 
-    Document   : index
-    Created on : 11 22, 26, 7:52:25 PM
-    Author     : caitlinjuliaamparo
---%>
-
 <%@ page contentType="text/html;charset=UTF-8" language="java" %>
 <%@ page import="java.util.concurrent.atomic.AtomicInteger" %>
 <%@ page import="java.util.Calendar" %>
@@ -51,7 +45,7 @@
         <p style="color: var(--cocoa-muted); margin-bottom: 1.25rem; font-size: 0.92rem;">
             Turn over surrendered student valuables to official campus custody lockers so claimants can recover them safely.
         </p>
-        <a href="report-item.jsp" class="btn btn-success">Report Found Item &rarr;</a>
+        <a href="<%= contextPath %>/report-item.jsp" class="btn btn-success">Report Found Item &rarr;</a>
     </div>
 
     <div class="card">
