@@ -1,9 +1,3 @@
-<%-- 
-    Document   : header
-    Created on : 11 22, 26, 9:03:38 PM
-    Author     : caitlinjuliaamparo
---%>
-
 <%@ page contentType="text/html;charset=UTF-8" language="java" %>
 <%@ page import="models.User" %>
 <%
@@ -15,16 +9,16 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Lost &amp; Found</title>
-    <link rel="stylesheet" href="css/global.css">
-    <link rel="stylesheet" href="<%= contextPath %>/css/global.css">
+    <title>Campus Lost &amp; Found</title>
+    <link rel="stylesheet" href="<%= contextPath %>/css/style.css">
+    <link rel="stylesheet" href="css/style.css">
 </head>
 <body>
 
     <header class="app-header">
         <div class="header-inner">
             <div class="header-brand">
-                <h1 class="header-title">Lost &amp; Found</h1>
+                <h1 class="header-title">Campus Lost &amp; Found</h1>
             </div>
             <div class="header-right">
                 <div class="course-text">ICS2608</div>
@@ -38,8 +32,8 @@
     <nav class="app-nav">
         <div class="nav-inner">
             <div class="nav-links">
-                <a href="index.jsp">Public Feed</a>
-                <a href="report-item.jsp">Report Found Item</a>
+                <a href="<%= contextPath %>/index.jsp">Public Feed</a>
+                <a href="<%= contextPath %>/report-item.jsp">Report Found Item</a>
                 <% if (currentUser != null) { %>
                     <% if ("ADMIN".equalsIgnoreCase(currentUser.getRole())) { %>
                         <a href="<%= contextPath %>/admin-dashboard.jsp">Security Console</a>
