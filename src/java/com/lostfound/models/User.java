@@ -32,7 +32,7 @@ public class User implements Serializable{
         return username;
     }
     
-    public String setUsername(String username){
+    public void setUsername(String username){
         this.username=username;
     }
     
@@ -40,7 +40,7 @@ public class User implements Serializable{
         return password;
     }
     
-    public String setPassword(){
+    public void setPassword(String password){
         this.password=password;
     }
     
@@ -48,7 +48,7 @@ public class User implements Serializable{
         return role;
     }
     
-    public String setRole(){
+    public void setRole(String role){
         this.role=role;
     }
     
@@ -56,7 +56,7 @@ public class User implements Serializable{
         return fullName;
     }
     
-    public String setFullName(){
+    public void setFullName(String fullName){
         this.fullName=fullName;
     }
 }
