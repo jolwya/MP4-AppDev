@@ -265,31 +265,6 @@ body {
     padding-bottom: 0.55rem;
 }
 
-/* STAT CARDS */
-.stat-card {
-    background-color: #FFFFFF;
-    border: 2px solid var(--border-warm);
-    border-bottom: 4px solid var(--green-header);
-    border-radius: var(--radius-lg);
-    padding: 1.35rem;
-    box-shadow: var(--shadow-card);
-}
-
-.stat-value {
-    font-size: 2.1rem;
-    font-weight: 800;
-    color: var(--cocoa-dark);
-    line-height: 1.1;
-    margin-bottom: 0.3rem;
-}
-
-.stat-label {
-    font-size: 0.74rem;
-    font-weight: 700;
-    text-transform: uppercase;
-    letter-spacing: 0.05em;
-    color: var(--cocoa-muted);
-}
 
 /* HERO BANNER */
 .hero-banner {
@@ -529,28 +504,6 @@ body {
     border: 1px solid #EBB3AB; 
 }
 
-/* PROGRESS BARS */
-.progress-track {
-    background-color: var(--border-light);
-    border: 1.5px solid var(--border-warm);
-    border-radius: var(--radius-pill);
-    height: 18px;
-    overflow: hidden;
-    margin: 0.5rem 0 0.85rem 0;
-}
-
-.progress-fill {
-    height: 100%;
-    border-radius: var(--radius-pill);
-    background-color: var(--green-header);
-    color: #FFFFFF;
-    font-size: 0.7rem;
-    font-weight: 800;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    transition: width 0.3s ease;
-}
 
 /* FOOTER */
 .app-footer {
