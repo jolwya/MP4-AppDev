@@ -30,21 +30,6 @@
 
     @SuppressWarnings("unchecked")
     List<LostItem> items = (List<LostItem>) application.getAttribute("itemsList");
-    int totalItems = (items != null) ? items.size() : 0;
-    int claimedCount = 0;
-    int pendingCount = 0;
-
-    if (items != null) {
-        for (LostItem item : items) {
-            if ("Claimed".equalsIgnoreCase(item.getStatus())) {
-                claimedCount++;
-            } else if ("Claim Pending".equalsIgnoreCase(item.getStatus())) {
-                pendingCount++;
-            }
-        }
-    }
-
-    double recoveryRate = (totalItems > 0) ? ((double) claimedCount / totalItems) * 100.0 : 0.0;
 %>
 <jsp:include page="/WEB-INF/includes/header.jsp" />
 
@@ -54,25 +39,6 @@
     <div class="visitor-pill">
         <span>Campus Visitors:</span>
         <span class="visitor-count"><%= visitorCount %></span>
-    </div>
-</section>
-
-<section class="grid-4">
-    <div class="stat-card">
-        <div class="stat-value"><%= totalItems %></div>
-        <div class="stat-label">Total Logged Items</div>
-    </div>
-    <div class="stat-card">
-        <div class="stat-value"><%= String.format("%.1f", recoveryRate) %>%</div>
-        <div class="stat-label">Recovery Rate</div>
-    </div>
-    <div class="stat-card">
-        <div class="stat-value"><%= pendingCount %></div>
-        <div class="stat-label">Pending Verifications</div>
-    </div>
-    <div class="stat-card">
-        <div class="stat-value"><%= claimedCount %></div>
-        <div class="stat-label">Items Returned</div>
     </div>
 </section>
 
