@@ -52,6 +52,71 @@ body {
     flex-direction: column;
 }
 
+body.auth-page {
+    background: var(--frame-gray);
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 1.5rem 1rem;
+}
+
+.auth-box {
+    width: 100%;
+    max-width: 440px;
+    background-color: var(--bg-inner);
+    border: 3px solid var(--frame-border);
+    border-radius: var(--radius-frame);
+    padding: 2.2rem 2rem;
+    box-shadow: 0 20px 40px rgba(0, 0, 0, 0.45);
+}
+
+.auth-header {
+    text-align: center;
+    margin-bottom: 1.35rem;
+}
+
+.auth-title {
+    font-size: 1.65rem;
+    font-weight: 800;
+    color: var(--cocoa-dark);
+    letter-spacing: -0.02em;
+    line-height: 1.15;
+    margin-bottom: 0.25rem;
+}
+
+.auth-subtitle {
+    font-size: 0.88rem;
+    color: var(--cocoa-muted);
+    font-weight: 600;
+    margin-bottom: 0.9rem;
+}
+
+.auth-meta {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 4px;
+    margin-bottom: 1.15rem;
+    padding-bottom: 0.85rem;
+    border-bottom: 1.5px dashed var(--border-warm);
+}
+
+.auth-meta .course-text {
+    color: var(--green-dark);
+    font-size: 0.84rem;
+    font-weight: 800;
+    letter-spacing: 0.05em;
+}
+
+.auth-meta .member-chip {
+    background-color: var(--green-header);
+    font-size: 0.68rem;
+    padding: 0.2rem 0.55rem;
+    text-align: center;
+}
+
 .app-header {
     width: 100%;
     background-color: var(--green-header);
