@@ -51,4 +51,19 @@
         <servlet-name>LogoutServlet</servlet-name>
         <url-pattern>/lagoutt<url-pattern>
     </servlet-mapping>
+    
+    <!--Item Man-->
+    <servlet>
+        <servlet-name>ItemServlet</servlet-name>
+        <servlet-class>com.lostfound.controllers.ItemServlet</servlet-class>
+        <init-param>
+            <param-name>defaultLocker</param-name>
+            <param-value>Locker General</param-value>
+        </init-param>
+    </servlet>
+    
+    <servlet-mapping>
+        <servlet-name>ItemServlet</servlet-name>
+        <url-pattern>/items/</url-pattern>
+    </servlet-mapping>
 </web-app>
